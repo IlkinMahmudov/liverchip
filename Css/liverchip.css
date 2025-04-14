@@ -173,8 +173,8 @@ margin-top: 40px;
         color: black;
         margin-top: 15px;
         transition: all 1s ease;
-        width: 600px;
-        overflow: hidden;
+        max-width: 700px;
+
     }
 
     .section-top-text p:hover{
@@ -815,7 +815,7 @@ text-align: center;
 }
 }
   .section-top-text p{
-    max-width: 400px;
+
   }
  
 
