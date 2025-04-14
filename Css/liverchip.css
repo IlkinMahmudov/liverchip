@@ -627,7 +627,13 @@ display: none;
     text-align: center;
     margin-left: 0;
   }
-  
+  .section-top-text{
+    display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+  }
   .section-top-text h1 {
     font-size: 28px;
   }
@@ -769,7 +775,7 @@ text-align: center;
 
  @media screen and (max-width:500px) {
  .our-invent{
-  display: none;
+
   }
   .invent-image{
     width: 300px;
