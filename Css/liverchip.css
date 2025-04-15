@@ -148,7 +148,9 @@ margin-top: 40px;
         object-fit: cover;
         background-color: transparent;
     }
-
+.invent-div{
+  margin-left: 80px;
+}
    
 
     @keyframes softBounce {
@@ -283,9 +285,6 @@ left: 20px;
     }
 
 
-.our-invent{
-  margin-left: 80px;
-}
 
     .invent-text h2{
       padding-top: 1.25rem;
@@ -625,6 +624,9 @@ display: none;
   }
   .invent-images{
     flex-direction: column;
+  }
+  .invent-div{
+    margin-left: 0;
   }
   .our-invent{
     display: flex;
