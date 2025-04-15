@@ -632,8 +632,7 @@ display: none;
     align-items: center;
     margin-top: 50px;
     flex-direction: column;
-    margin-left: 0px;
-    left: 0px;
+
   }
   .main-section-flex {
     flex-direction: column;
@@ -735,7 +734,8 @@ text-align: center;
     margin-top: 50px;
   }
   .main-section-flex,.main-section,.about-us-section,
-  .portofolio-div,.contact-us-section {
+  .portofolio-div,.contact-us-section,
+  .our-invent {
     margin-top: 20px;
     margin-left: 0;
   }
