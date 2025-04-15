@@ -633,6 +633,7 @@ display: none;
     margin-top: 50px;
     flex-direction: column;
     margin-left: 0px;
+    left: 0px;
   }
   .main-section-flex {
     flex-direction: column;
