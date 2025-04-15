@@ -200,9 +200,10 @@ margin-top: 40px;
         color: black;
     }
     .team-div{
+      flex-direction: column;
       display: flex;
       margin-top:100px;
-   justify-content: space-between;
+
     
     }
     .our-command-section{
@@ -211,7 +212,8 @@ margin-left: 80px;
     
      
     }
-    .command-text{
+    .command-text,
+    .invent-text{
     padding-top: 1.25rem;
  
       font-size:30px;
@@ -281,11 +283,13 @@ left: 20px;
     }
 
 
-
+.our-invent{
+  margin-left: 80px;
+}
 
     .invent-text h2{
       padding-top: 1.25rem;
-      padding-left: 20px;
+ 
         font-size:30px;
         font-weight: 400;
     }
@@ -293,7 +297,7 @@ left: 20px;
     .invent-image{
       
       padding-top: 1.50rem;
-      max-width: 450px;
+      max-width: 500px;
       height: 340px;
     }
 
@@ -605,6 +609,11 @@ display: none;
   top: 95px;
   font-size: 20px;
 }
+
+.invent-images{
+  display: flex;
+  gap: 50px;
+}
 @media screen and (max-width:1030px) {
   .top-head-nav{
     display: none;
@@ -613,6 +622,9 @@ display: none;
   .responsive-navbar{
     display: block;
     justify-content: space-between;
+  }
+  .invent-images{
+    flex-direction: column;
   }
   .our-invent{
     display: flex;
@@ -725,7 +737,8 @@ text-align: center;
     margin-top: 20px;
     margin-left: 0;
   }
-}
+
+} 
 
 
 @media  screen and (max-width:1000px) {
@@ -774,9 +787,7 @@ text-align: center;
 
 
  @media screen and (max-width:500px) {
- .our-invent{
 
-  }
   .invent-image{
     width: 300px;
     height: auto;
@@ -803,9 +814,10 @@ text-align: center;
   }
  }
  
- @media screen and (max-width:360px) {
-.logo-border{
-  display: none;
-}
+
   
- }
+ @media screen and (max-width:360px) {
+  .logo-border{
+    display: none;
+  }
+}
