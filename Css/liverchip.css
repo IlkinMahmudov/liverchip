@@ -632,6 +632,7 @@ display: none;
     align-items: center;
     margin-top: 50px;
     flex-direction: column;
+    margin-left: 0px;
   }
   .main-section-flex {
     flex-direction: column;
