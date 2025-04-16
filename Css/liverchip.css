@@ -627,6 +627,11 @@ display: none;
   }
   .invent-div{
     margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
   }
   .our-invent{
     display: flex;
@@ -823,5 +828,8 @@ text-align: center;
  @media screen and (max-width:360px) {
   .logo-border{
     display: none;
+  }
+  .liverchip-logo{
+    width: 150px;
   }
 }
