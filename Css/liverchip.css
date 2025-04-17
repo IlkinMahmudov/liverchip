@@ -829,7 +829,10 @@ text-align: center;
   .logo-border{
     display: none;
   }
-  .liverchip-logo{
-    width: 150px;
+  .liverchip-logo img{
+    width: 120px;
+  }
+  p{
+    overflow: hidden;
   }
 }
